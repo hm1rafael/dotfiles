@@ -70,12 +70,10 @@ color body brightblue  white "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"    
 
 mailboxes imap://mail.softplan.com.br
 set folder="imap://mail.softplan.com.br/INBOX"  
-set imap_user="rafael.mattos" #your IMAP user name or login
-set imap_pass="MireJulia88" #your IMAP password
 set header_cache = "~/cache-headers"
 set timeout=100
 
 
 # If not set in ~/.bashrc:
-set spoolfile = imap://rafael.mattos:MireJulia88@mail.softplan.com.br
+set spoolfile = imap://mail.softplan.com.br
 
