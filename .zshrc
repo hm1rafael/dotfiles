@@ -9,6 +9,9 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="random"
 
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
